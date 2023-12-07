@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <title>MAGIC THE GATHERING ARENA</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./css/jquery.fullpage.css" />
+	<link rel="stylesheet" href="./css/common.css" />
+
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="header-top clearfix">
+        <h1 class="l-left logo-magic">
+            <a href="#lineup"><!-- logo link -->
+                <img src="./images/logo_magic.png" class="img-p" alt="MAGIC THE GATHERING" />
+                <img src="./images/logo_magic_m.png" class="img-m" alt="MAGIC THE GATHERING" />
+            </a>
+        </h1>
+        <a class="l-right toggle-menu" href="#">
+            <img src="./images/btn_nav.png" alt="navigation" />
+        </a>
+    </div>
+    <nav class="hide"> <!-- menu -->
+        <ul id="menu" class="main-menu store">
+            <li data-menuanchor="lineup" class="m1 active"><a href="#lineup">제품 라인업</a></li>
+            <li data-menuanchor="store" class="m2"><a href="#store">스토어</a></li>
+            <li class="m3"><a href="https://www.mtgkorea.co.kr/promotion/" target="_blank">프로모션</a></li>
+            <li class="m4"><a href="https://www.mtgkorea.co.kr/main/">아레나 다운로드</a></li>
+            <li class="m5"><a href="#sns-popup" class="btn-sns">SNS채널보기</a></li>
+        </ul>
+    </nav>
+</header>
+<!--// HEADER -->
+
+<div class="page-container">
+    <div id="storeFullpage">
+
+        <!-- 제품 라인업 -->
+        <div class="section store1">
+            <div class="fp-bg store-bg1"></div>
+            <div class="section-info">
+                <div class="txt">
+                    <img src="./images/store_txt1_1_m.png" class="img-m" alt="" />
+                </div>
+                <div class="btn">
+                    <a href="https://magic.wizards.com/ko/products/innistrad-crimson-vow" target="_blank">
+                        <img src="./images/btn_detail.png" class="img-p" alt="자세히 알아보기" />
+                        <img src="./images/btn_detail_m.png" class="img-m" alt="자세히 알아보기" />
+                    </a>
+                </div>
+                <div class="txt">
+                    <img src="./images/store_txt1.png" class="img-p" alt="" />
+                    <img src="./images/store_txt1_m.png" class="img-m" alt="" />
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- 슬라이드  -->
+        <div class="section store2">
+            <div class="fp-bg store-bg2"></div>
+            <div class="section-info">
+                <div class="tit"><img src="./images/store_tit.png" alt=""></div>
+                
+                <div class="store-slide">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./images/slide1.png"alt="" /></div>
+                            <div class="swiper-slide"><img src="./images/slide2.png"alt="" /></div>
+                            <div class="swiper-slide"><img src="./images/slide3.png"alt="" /></div>
+                            <div class="swiper-slide"><img src="./images/slide4.png"alt="" /></div>
+                            <div class="swiper-slide"><img src="./images/slide5.png"alt="" /></div>
+                            <div class="swiper-slide"><img src="./images/slide6.png"alt="" /></div>
+                        </div>
+                    
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div> 
+                <div class="txt">
+                    <img src="./images/store_txt2.png" class="img-p" alt="" />
+                    <img src="./images/store_txt2_m.png" class="img-m" alt="" />
+                </div>
+                <div class="btn">
+                    <a href="https://locator.wizards.com/" target="_blank">
+                        <img src="./images/btn_offline.png" class="img-p" alt="오프라인 매장 확인 하기" />
+                        <img src="./images/btn_offline_m.png" class="img-m" alt="오프라인 매장 확인 하기" />
+                    </a>
+                </div>
+                <div class="txt2">
+                    <img src="./images/store_txt3.png" class="img-p" alt="" />
+                    <img src="./images/store_txt3_m.png" class="img-m" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <!-- 푸터 -->
+        <div class="section fp-auto-height sect4 pc-footer">
+            <div class="footer">
+                <div class="footer_tit_02"><img src="./images/footer_tit_02.png" alt=""></div>
+                <div class="footer_logo_01"><a href="https://company.wizards.com/ko" target="_blank"><img src="./images/footer_logo_01.png" alt=""></a></div>
+                <ul class="btn_02">
+                    <li><a href="https://company.wizards.com/ko/legal/terms" target="_blank"><img src="./images/footer_btn2_01.png" alt=""></a></li>
+                    <li><a href="https://company.wizards.com/ko/legal/code-conduct" target="_blank"><img src="./images/footer_btn2_02.png" alt=""></a></li>
+                    <li><a href="https://company.wizards.com/ko/legal/wizards-coasts-privacy-policy" target="_blank"><img src="./images/footer_btn2_03.png" alt=""></a></li>
+                    <li><a href="https://support.wizards.com/hc/en-us" target="_blank"><img src="./images/footer_btn2_04.png" alt=""></a></li>
+                    <li><a href="https://www.mtgkorea.co.kr/cookie/" target="_blank"><img src="./images/footer_btn2_05.png" alt=""></a></li>
+                    <li><a href="https://company.wizards.com/ko/legal/fancontentpolicy" target="_blank"><img src="./images/footer_btn2_06.png" alt=""></a></li>
+                    <li><a href="https://company.wizards.com/ko/legal/wizards-coasts-privacy-policy#donotsell" target="_blank"><img src="./images/footer_btn2_07.png" alt=""></a></li>
+                </ul>
+                <div class="footer_logo_02"><a href="https://shop.hasbro.com/ko-kr" target="_blank"><img src="./images/footer_logo_02.png" alt=""></a></div>
+                <div class="footer_tit_03"><img src="./images/footer_add.png" alt=""></div>
+            </div>
+        </div>
+        <!--// 푸터 -->
+    </div> <!--// fullpage :: end -->
+</div>
+
+<!-- Layer POPUP-->
+<div class="popup-wrap" id="sns-popup">
+    <div class="popup-box">
+        <span class="btn-close"><img src="./images/btn_close.png" alt="팝업닫기" /></span>
+        <div class="pop-body">
+            <div class="tit"><img src="./images/sns_txt.png" alt="공식 사이트 & 채널정보" /></div>
+            <ul>
+                <li><a href="https://magic.wizards.com/ko" target="_blank"><img src="./images/btn_sns_1.png" alt="공식 사이트" /></a></li>
+                <li><a href="https://www.facebook.com/MagicTheGathering.kr/?brand_redir=201120755306" target="_blank"><img src="./images/btn_sns_2.png" alt="facebook" /></a></li>
+                <li><a href="https://www.youtube.com/channel/UCq5O7FvrkpcNtYLxbhgL_zQ" target="_blank"><img src="./images/btn_sns_3.png" alt="YouTube" /></a></li>
+                <li><a href="http://cafe.naver.com/mtgkr" target="_blank"><img src="./images/btn_sns_4.png" alt="Naver Cafe" /></a></li>
+                <li><a href="https://m.post.naver.com/mtgko" target="_blank"><img src="./images/btn_sns_5.png" alt="Naver Post" /></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--// Layer POPUP-->
+
+<!-- JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.js"></script>
+<!-- <script src="./js/swiper.min.js"></script> -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js/vod.js"></script>
+<script src="./js/common.js"></script>
+<script>
+   
+
+    
+  </script>
+</body>
+</html>
